@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    BudR
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <!-- CSS Files -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/css/now-ui-kit.css?v=1.2.0" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="assets/demo/demo.css" rel="stylesheet" />
+  <link href="assets/custom.css" rel="stylesheet" />
+  <link href="assets/bud-tooltip.css" rel="stylesheet" />
+
+
+</head>
+
+<body class="login-page sidebar-collapse">
+  <!-- Navbar -->
+  <nav style="z-index: 9999999;" class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent "
+    color-on-scroll="400">
+    <div class="container">
+      <div class="navbar-translate">
+        <a class="navbar-brand" href="#">
+          <img class="img-fluid bud-logo" src="assets/img/bud.svg" />
+        </a>
+        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-bar top-bar"></span>
+          <span class="navbar-toggler-bar middle-bar"></span>
+          <span class="navbar-toggler-bar bottom-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="assets/img/blurred-image-1.jpg">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link nav-link-first" href="#" id="help-menu">Help</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="help-about" disabled>About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-last" href="#" id="got-plus" disabled>Got Plus?</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+  <div class="page-header clear-filter">
+    <div class="page-header-image" style="background-image:url(assets/img/team/bud-r.png)"></div>
+    <div class="content">
+      <div class="container">
+        <div class="col-md-4">
+          <div class="card text-black bud-card" style="max-width: 290px;">
+            <div class="card-body px-0 ">
+              <!-- <img class="img-fluid epl-logo" src="assets/img/elp.png"/> -->
+              <div class="match-date">26 september / 8:45 PM</div>
+              <div class="loader">
+                <svg id="wave" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 38.05">
+                  <title>Audio Wave</title>
+                  <path id="Line_1" data-name="Line 1" d="M0.91,15L0.78,15A1,1,0,0,0,0,16v6a1,1,0,1,0,2,0s0,0,0,0V16a1,1,0,0,0-1-1H0.91Z" />
+                  <path id="Line_2" data-name="Line 2" d="M6.91,9L6.78,9A1,1,0,0,0,6,10V28a1,1,0,1,0,2,0s0,0,0,0V10A1,1,0,0,0,7,9H6.91Z" />
+                  <path id="Line_3" data-name="Line 3" d="M12.91,0L12.78,0A1,1,0,0,0,12,1V37a1,1,0,1,0,2,0s0,0,0,0V1a1,1,0,0,0-1-1H12.91Z" />
+                  <path id="Line_4" data-name="Line 4" d="M18.91,10l-0.12,0A1,1,0,0,0,18,11V27a1,1,0,1,0,2,0s0,0,0,0V11a1,1,0,0,0-1-1H18.91Z" />
+                  <path id="Line_5" data-name="Line 5" d="M24.91,15l-0.12,0A1,1,0,0,0,24,16v6a1,1,0,0,0,2,0s0,0,0,0V16a1,1,0,0,0-1-1H24.91Z" />
+                  <path id="Line_6" data-name="Line 6" d="M30.91,10l-0.12,0A1,1,0,0,0,30,11V27a1,1,0,1,0,2,0s0,0,0,0V11a1,1,0,0,0-1-1H30.91Z" />
+                  <path id="Line_7" data-name="Line 7" d="M36.91,0L36.78,0A1,1,0,0,0,36,1V37a1,1,0,1,0,2,0s0,0,0,0V1a1,1,0,0,0-1-1H36.91Z" />
+                  <path id="Line_8" data-name="Line 8" d="M42.91,9L42.78,9A1,1,0,0,0,42,10V28a1,1,0,1,0,2,0s0,0,0,0V10a1,1,0,0,0-1-1H42.91Z" />
+                  <path id="Line_9" data-name="Line 9" d="M48.91,15l-0.12,0A1,1,0,0,0,48,16v6a1,1,0,1,0,2,0s0,0,0,0V16a1,1,0,0,0-1-1H48.91Z" />
+                </svg>
+              </div>
+              <div class="match active-match bud-tooltip" data-direction="right">
+                <div class="row bud-tooltip__initiator">
+                  <div class="col col-4">
+                    <img class="match-team" src="assets/img/team/arsenal.png">
+                  </div>
+                  <div class="col col-2 text-center">
+                    <span class="scores">
+                      <span>3:2</span>
+                    </span>
+                  </div>
+                  <div class="col col-4">
+                    <img class="match-team" src="assets/img/team/liverpool.png">
+                  </div>
+                  <div class="col col-2">
+                    <div class="match-control mt-2">
+                      <span class="fa fa-pause active"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="bud-tooltip__item">
+                  <div class="row">
+                    <div class="col col-4">
+                      <img class="match-team" src="assets/img/team/arsenal.png">
+                    </div>
+                    <div class="col col-4 text-center">
+                      <span class="scores tooltip-scores">
+                        <span>3:2</span>
+                      </span>
+                      <p class="tooltip-timer"><span class="fa fa-clock pr-2"></span>70'</p>
+                    </div>
+                    <div class="col col-4">
+                      <img class="match-team" src="assets/img/team/liverpool.png">
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div class="progress-container progress-primary">
+                      <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
+                          aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                          <div class="">
+                            <span class="progress-value-left">60%</span>
+                            <span class="progress-value-right">40%</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bud-comments">
+                    <div class="commentary-list">
+                      <div class="row">
+                        <di class="col col-2">
+                          <img class="img-fluid comment-team" src="assets/img/team/arsenal.png" />
+                        </di>
+                        <div class="col col-8">
+                          <p class="commentary-info"><span class="font-weight-bold">Horpey</span> scored a goal</p>
+                        </div>
+                        <div class="col col-2">
+                          <p class="text-red font-weight-bold commentary-info">'67</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="commentary-list">
+                      <div class="row">
+                        <di class="col col-2">
+                          <img class="img-fluid comment-team" src="assets/img/team/liverpool.png" />
+                        </di>
+                        <div class="col col-8">
+                          <p class="commentary-info"><span class="font-weight-bold">Drogba</span> commited foul</p>
+                        </div>
+                        <div class="col col-2">
+                          <p class="text-red font-weight-bold commentary-info">'62</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="commentary-list">
+                      <div class="row">
+                        <di class="col col-2">
+                          <img class="img-fluid comment-team" src="assets/img/team/arsenal.png" />
+                        </di>
+                        <div class="col col-8">
+                          <p class="commentary-info"><span class="font-weight-bold">Team 1</span> made substitution</p>
+                        </div>
+                        <div class="col col-2">
+                          <p class="text-red font-weight-bold commentary-info">'50</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="match bud-tooltip" data-direction="right">
+                <div class="row bud-tooltip__initiator">
+                  <div class="col col-4">
+                    <img class="match-team" src="assets/img/team/tot.png">
+                  </div>
+                  <div class="col col-2 text-center">
+                    <span class="scores">
+                      <span>1:0</span>
+                    </span>
+                  </div>
+                  <div class="col col-4">
+                    <img class="match-team" src="assets/img/team/lei.png">
+                  </div>
+                  <div class="col col-2">
+                    <div class="match-control mt-2">
+                      <span class="fa fa-play active"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="bud-tooltip__item">
+                  <div class="row">
+                    <div class="col col-4">
+                      <img class="match-team" src="assets/img/team/tot.png">
+                    </div>
+                    <div class="col col-4 text-center">
+                      <span class="scores tooltip-scores">
+                        <span>1:0</span>
+                      </span>
+                      <p class="tooltip-timer"><span class="fa fa-clock pr-2"></span>70'</p>
+                    </div>
+                    <div class="col col-4">
+                      <img class="match-team" src="assets/img/team/lei.png">
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div class="progress-container progress-primary">
+                      <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
+                          aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                          <div class="">
+                            <span class="progress-value-left">60%</span>
+                            <span class="progress-value-right">40%</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bud-comments">
+                    <div class="commentary-list">
+                      <div class="row">
+                        <di class="col col-2">
+                          <img class="img-fluid comment-team" src="assets/img/team/tot.png" />
+                        </di>
+                        <div class="col col-8">
+                          <p class="commentary-info"><span class="font-weight-bold">Horpey</span> scored a goal</p>
+                        </div>
+                        <div class="col col-2">
+                          <p class="text-red font-weight-bold commentary-info">'67</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="match bud-tooltip" data-direction="right">
+                <div class="row bud-tooltip__initiator">
+                  <div class="col col-4">
+                    <img class="match-team" src="assets/img/team/fulham.png">
+                  </div>
+                  <div class="col col-2 text-center">
+                    <span class="scores">
+                      <span>1:0</span>
+                    </span>
+                  </div>
+                  <div class="col col-4">
+                    <img class="match-team" src="assets/img/team/westham.png">
+                  </div>
+                  <div class="col col-2">
+                    <div class="match-control mt-2">
+                      <span class="fa fa-play active"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="bud-tooltip__item">
+                  <div class="row">
+                    <div class="col col-4">
+                      <img class="match-team" src="assets/img/team/fulham.png">
+                    </div>
+                    <div class="col col-4 text-center">
+                      <span class="scores tooltip-scores">
+                        <span>0:3</span>
+                      </span>
+                      <p class="tooltip-timer"><span class="fa fa-clock pr-2"></span>70'</p>
+                    </div>
+                    <div class="col col-4">
+                      <img class="match-team" src="assets/img/team/westham.png">
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div class="progress-container progress-primary">
+                      <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
+                          aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                          <div class="">
+                            <span class="progress-value-left">40%</span>
+                            <span class="progress-value-right">60%</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bud-comments">
+                    <div class="commentary-list">
+                      <div class="row">
+                        <di class="col col-2">
+                          <img class="img-fluid comment-team" src="assets/img/team/westham.png" />
+                        </di>
+                        <div class="col col-8">
+                          <p class="commentary-info"><span class="font-weight-bold">Horpey</span> scored a goal</p>
+                        </div>
+                        <div class="col col-2">
+                          <p class="text-red font-weight-bold commentary-info">'67</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="commentary-list">
+                      <div class="row">
+                        <di class="col col-2">
+                          <img class="img-fluid comment-team" src="assets/img/team/westham.png" />
+                        </di>
+                        <div class="col col-8">
+                          <p class="commentary-info"><span class="font-weight-bold">Andrew</span> commited a foul</p>
+                        </div>
+                        <div class="col col-2">
+                          <p class="text-red font-weight-bold commentary-info">'67</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="match bud-tooltip" data-direction="right">
+                <div class="row bud-tooltip__initiator">
+                  <div class="col col-4">
+                    <img class="match-team" src="assets/img/team/crystal.png">
+                  </div>
+                  <div class="col col-2 text-center">
+                    <span class="scores">
+                      <span>1:0</span>
+                    </span>
+                  </div>
+                  <div class="col col-4">
+                    <img class="match-team" src="assets/img/team/watford.png">
+                  </div>
+                  <div class="col col-2">
+                    <div class="match-control mt-2">
+                      <span class="fa fa-play active"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="bud-tooltip__item">
+                  <div class="row">
+                    <div class="col col-4">
+                      <img class="match-team" src="assets/img/team/crystal.png">
+                    </div>
+                    <div class="col col-4 text-center">
+                      <span class="scores tooltip-scores">
+                        <span>0:3</span>
+                      </span>
+                      <p class="tooltip-timer"><span class="fa fa-clock pr-2"></span>70'</p>
+                    </div>
+                    <div class="col col-4">
+                      <img class="match-team" src="assets/img/team/watford.png">
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div class="progress-container progress-primary">
+                      <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
+                          aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                          <div class="">
+                            <span class="progress-value-left">40%</span>
+                            <span class="progress-value-right">60%</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bud-comments">
+                    <div class="commentary-list">
+                      <div class="row">
+                        <di class="col col-2">
+                          <img class="img-fluid comment-team" src="assets/img/team/watford.png" />
+                        </di>
+                        <div class="col col-8">
+                          <p class="commentary-info"><span class="font-weight-bold">Horpey</span> scored a goal</p>
+                        </div>
+                        <div class="col col-2">
+                          <p class="text-red font-weight-bold commentary-info">'67</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="commentary-list">
+                      <div class="row">
+                        <di class="col col-2">
+                          <img class="img-fluid comment-team" src="assets/img/team/watford.png" />
+                        </di>
+                        <div class="col col-8">
+                          <p class="commentary-info"><span class="font-weight-bold">Andrew</span> commited a foul</p>
+                        </div>
+                        <div class="col col-2">
+                          <p class="text-red font-weight-bold commentary-info">'67</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+            <div class="card-footer text-center">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Canvas OVerlay -->
+    <div class="help-overlay text-black">
+      <div class="help-menu">
+        <div class="col-md-6" style="position: relative;">
+          <a href="#" class="close-help" id="close-help">
+            <svg style="margin: 2px; width: 25px;" viewBox="0 0 24 24" class="panel__close">
+              <path fill="#BABCBF" fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10 10-4.477 10-10zm-10-1.414L9.875 8.46c-.38-.38-1.02-.386-1.41.004-.394.394-.393 1.023-.004 1.41L10.587 12 8.46 14.125c-.38.38-.386 1.02.004 1.41.394.394 1.023.393 1.41.004L12 13.413l2.125 2.125c.38.38 1.02.386 1.41-.004.394-.394.393-1.023.004-1.41L13.413 12l2.125-2.125c.38-.38.386-1.02-.004-1.41-.394-.394-1.023-.393-1.41-.004L12 10.587zM0 12C0 5.373 5.373 0 12 0s12 5.373 12 12-5.373 12-12 12S0 18.627 0 12z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <div class="help-content">
+          
+          <h1 class="font-abril text-left">Quick Help</h1>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card card-plain help-card">
+                <div class="card-header">
+                  <h4 class="m-0 help-heading">How to download podcast</h4>
+                </div>
+                <div class="card-body help-infos">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repellat impedit quisquam, commodi
+                    beatae facilis, recusandae assumenda debitis inventore architecto dolorem voluptate nisi adipisci
+                    esse neque nihil natus iusto eveniet.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card card-plain help-card">
+                <div class="card-header">
+                  <h4 class="m-0 help-heading">Bugs we are currently Fixing</h4>
+                </div>
+                <div class="card-body help-infos">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repellat impedit quisquam, commodi
+                    beatae facilis, recusandae assumenda debitis inventore architecto dolorem voluptate nisi adipisci
+                    esse neque nihil natus iusto eveniet.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card card-plain help-card">
+                <div class="card-header">
+                  <h4 class="m-0 help-heading">Select Team</h4>
+                </div>
+                <div class="card-body help-infos">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repellat impedit quisquam, commodi
+                    beatae facilis, recusandae assumenda debitis inventore architecto dolorem voluptate nisi adipisci
+                    esse neque nihil natus iusto eveniet.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card card-plain help-card">
+                <div class="card-header">
+                  <h4 class="m-0 help-heading">How to sign up</h4>
+                </div>
+                <div class="card-body help-infos">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repellat impedit quisquam, commodi
+                    beatae facilis, recusandae assumenda debitis inventore architecto dolorem voluptate nisi adipisci
+                    esse neque nihil natus iusto eveniet.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="text-center">
+            <a class="btn btn-primary text-white btn-bud">More answers</a>
+          </div>
+        </div>
+
+        <div class="help-footer">
+          <footer class="footer footer-big footer-white">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <ul class="">
+                    <li>
+                      <a href="#pablo">
+                        Terms
+
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#pablo">
+                        Press
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#pablo">
+                        Jobs
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <div class="">
+                    <ul class="social-buttons">
+                      <li>
+                        <a href="#" target="_blank" class="btn btn-icon btn-link btn-neutral text-black">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank" class="btn btn-icon btn-neutral btn-link text-black">
+                          <i class="fab fa-facebook-square"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank" class="btn btn-icon btn-neutral btn-link text-black">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- About Overlay -->
+    <div class="about-overlay text-black">
+      <div class="help-menu">
+        <div class="col-md-6" style="position: relative;">
+          <a href="#" class="close-help" id="close-about">
+            <svg style="margin: 2px; width: 25px;" viewBox="0 0 24 24" class="panel__close">
+              <path fill="#BABCBF" fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10 10-4.477 10-10zm-10-1.414L9.875 8.46c-.38-.38-1.02-.386-1.41.004-.394.394-.393 1.023-.004 1.41L10.587 12 8.46 14.125c-.38.38-.386 1.02.004 1.41.394.394 1.023.393 1.41.004L12 13.413l2.125 2.125c.38.38 1.02.386 1.41-.004.394-.394.393-1.023.004-1.41L13.413 12l2.125-2.125c.38-.38.386-1.02-.004-1.41-.394-.394-1.023-.393-1.41-.004L12 10.587zM0 12C0 5.373 5.373 0 12 0s12 5.373 12 12-5.373 12-12 12S0 18.627 0 12z"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <!-- <a href="#" class="close-help-overlay"><span class="fa fa-times"></span></a> -->
+        </div>
+      </div>
+      <div>
+        <div class="help-content">
+          <h1 class="font-abril text-center">Welcome to BudR</h1>
+          <div class="row">
+            <div class="col-md-6 m-auto">
+              <p>BudR was founded in 2018 as the simplest way to send listen to live mateches around the world. Today
+                we’re a set of beautifully obvious tools that bring your ideas to life.
+
+              </p>
+
+              <p>At BudR we believe you should be treated online the way you expect to be treated offline. It’s why,
+                after ten years, we still keep things simple, make things stylish and stay away from any funny
+                business.</p>
+
+              <p>In 2018, Fast Company named BudR one of the world’s most innovative design companies, “for
+                becoming a hub for creative communities.”</p>
+            </div>
+          </div>
+          <div class="img-slides">
+            <div class="">
+              <img class="img-fluid" src="assets/img/team/about1.jpg" />
+              <img class="img-fluid" src="assets/img/team/about2.jpg" />
+              <img class="img-fluid" src="assets/img/team/about3.jpg" />
+              <img class="img-fluid" src="assets/img/team/about4.jpg" />
+            </div>
+          </div>
+          <div class="text-center">
+            <a class="btn btn-primary text-white btn-about">Advertise</a>
+            <a class="btn btn-primary text-white btn-about">Get in Touch</a>
+
+          </div>
+        </div>
+
+        <div class="help-footer">
+          <footer class="footer footer-big footer-white">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <ul class="">
+                    <li>
+                      <a href="#pablo">
+                        Terms
+
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#pablo">
+                        Press
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#pablo">
+                        Jobs
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <div class="">
+                    <ul class="social-buttons">
+                      <li>
+                        <a href="#" target="_blank" class="btn btn-icon btn-link btn-neutral text-black">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank" class="btn btn-icon btn-neutral btn-link text-black">
+                          <i class="fab fa-facebook-square"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank" class="btn btn-icon btn-neutral btn-link text-black">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <!-- About Overlay -->
+
+    <!-- Plus Overlay -->
+    <div class="gotplus-overlay text-black">
+        <div class="help-menu">
+          <div class="col-md-6" style="position: relative;">
+            <a href="#" class="close-help" id="close-plus">
+              <svg style="margin: 2px; width: 25px;" viewBox="0 0 24 24" class="panel__close">
+                <path fill="#BABCBF" fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10 10-4.477 10-10zm-10-1.414L9.875 8.46c-.38-.38-1.02-.386-1.41.004-.394.394-.393 1.023-.004 1.41L10.587 12 8.46 14.125c-.38.38-.386 1.02.004 1.41.394.394 1.023.393 1.41.004L12 13.413l2.125 2.125c.38.38 1.02.386 1.41-.004.394-.394.393-1.023.004-1.41L13.413 12l2.125-2.125c.38-.38.386-1.02-.004-1.41-.394-.394-1.023-.393-1.41-.004L12 10.587zM0 12C0 5.373 5.373 0 12 0s12 5.373 12 12-5.373 12-12 12S0 18.627 0 12z"></path>
+              </svg>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <!-- <a href="#" class="close-help-overlay"><span class="fa fa-times"></span></a> -->
+          </div>
+        </div>
+        <div>
+          <div class="help-content">
+            <div class="">
+                <form method="" action="">
+                    <div class="row">
+                      <div class="col-sm-5 pr-0">
+                          <div class="form-group">
+                              <input type="email" value="" placeholder="Email Address" class="form-control bud-input">
+                            </div>
+                      </div>
+                      <div class="col-sm-4 pr-0">
+                          <div class="form-group">
+                              <input type="password" value="" placeholder="password" class="form-control bud-input">
+                            </div>
+                        </div>
+                      <div class="col-sm-3">
+                        <button type="button" class="btn btn-primary btn-round btn-block mt-0 reg-input">Sign in</button>
+                      </div>
+                    </div>
+                  </form>
+            </div>
+            <div class="main-plus">
+                <h1 class="font-abril text-center">BudR Plus</h1>
+                <div class="row">
+                  <div class="col-md-6 m-auto text-center">
+                    <p>Get more out of BudR, get Plus
+                    </p>
+                  </div>
+                </div>
+            </div>
+           <div class="row mt-5">
+             <div class="col-md-2"></div>
+             <div class="col-md-4">
+               <p class="font-weight-bold mb-0 ml-3">A better service</p>
+               <ul>
+                 <li>Send up to 20GB at a time</li>
+                <li>Store up to 100GB</li>
+                <li>Password protect your files</li>
+               </ul>
+             </div>
+             <div class="col-md-4">
+                <p class="font-weight-bold mb-0 ml-3">Your own look and feel</p>
+                <ul>
+                    <li>Personalize your profile</li>
+                    <li>Choose your background images</li>
+                    <li>Customize your emails</li>
+                </ul>
+              </div>
+           </div>
+            <div class="text-center">
+              <a class="btn btn-primary text-white btn-about">More about BudR Plus</a>
+              <a class="btn btn-primary text-white btn-about btn-bud text-white">Sign me up</a>
+  
+            </div>
+          </div>
+  
+          <div class="help-footer">
+            <footer class="footer footer-big footer-white">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <ul class="">
+                      <li>
+                        <a href="#pablo">
+                          Terms
+  
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#pablo">
+                          Press
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#pablo">
+                          Jobs
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="">
+                      <ul class="social-buttons">
+                        <li>
+                          <a href="#" target="_blank" class="btn btn-icon btn-link btn-neutral text-black">
+                            <i class="fab fa-twitter"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" target="_blank" class="btn btn-icon btn-neutral btn-link text-black">
+                            <i class="fab fa-facebook-square"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" target="_blank" class="btn btn-icon btn-neutral btn-link text-black">
+                            <i class="fab fa-instagram"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </div>
+      <!-- Plus Overlay -->
+
+  </div>
+  <!--   Core JS Files   -->
+  <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+  <script src="assets/js/now-ui-kit.js?v=1.2.0" type="text/javascript"></script>
+  <script src="assets/js/custom.js" type="text/javascript"></script>
+</body>
+
+</html>

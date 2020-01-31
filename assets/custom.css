@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+.font-abril{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.navbar .navbar-nav .nav-link:not(.btn){
+    color: black;
+    font-size: 0.9em;
+    text-transform: capitalize;
+    background: white;
+    margin: 0px;
+    padding: 0.5rem 1rem;
+    border: 1px solid #d4d4d4;
+}
+
+.navbar .navbar-nav .nav-link-first:not(.btn){
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.navbar .navbar-nav .nav-link-first:not(.btn):hover,.navbar .navbar-nav .nav-link-first:not(.btn):focus{
+    border-top-left-radius: 8px!important;
+    border-bottom-left-radius: 8px!important;
+}
+.navbar .navbar-nav .nav-link-last:not(.btn){
+    border-top-right-radius: 8px!important;
+    border-bottom-right-radius: 8px!important;
+}
+.navbar .navbar-nav .nav-link-last:not(.btn):hover,.navbar .navbar-nav .nav-link-last:not(.btn):focus{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link:not(.btn):hover,.navbar .navbar-nav .nav-item .nav-link:not(.btn):focus{
+    background: #f3f3f3;
+    border-radius: 0px;
+}
+
+.navbar-nav .nav-item{
+    margin-right: 0px!important;
+}
+.bud-card{
+    border-radius: 10px;
+    box-shadow: 0 0 12px 0 rgba(0,0,0,0.1), 0 10px 30px 0 rgba(0,0,0,0.2);
+}
+
+.login-page .page-header:before, .profile-page .page-header:before{
+  background: transparent;
+}
+
+.bud-logo{
+    width: 110px!important;
+}
+
+.epl-logo{
+    width: 40px;
+}
+
+html, body {
+    height: 100%;
+  }
+  
+  body {
+    background: #101010;
+  }
+  
+  .loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 30px;
+  }
+
+  .match{
+    padding: 8px 20px;
+    border-bottom: 1px solid gainsboro;
+  }
+
+  .match-control span{
+    color: black;
+    padding: 9px;
+    border-radius: 10px;
+    font-size: 8px;
+  }
+
+  .match-control span.active{
+    background: #00000024;
+  }
+
+  .active-match{
+    background: #ffdc29;
+  }
+
+  .match .title{
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #141414;
+    line-height: normal;
+    padding: 0px;
+  }
+
+  .match .scores{
+    /* min-width: 50px; */
+    padding: 0 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    background: #141414;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    border-radius: 10px;
+  }
+
+  .match-date{
+    padding-top: 0px;
+    font-weight: 500;
+    font-size: 11px;
+    color: #b1b1b1;
+  }
+
+  .match-team{
+    height: 30px;
+  }
+
+  .tooltip-scores{
+    background: transparent!important;
+    color: black!important;
+    font-size: 32px!important;
+  }
+
+  .tooltip-timer{
+    border-radius: 15px;
+    font-size: 11px;
+    background: white;
+    color: red;
+    margin: 14px 0px;
+    font-weight: bold;
+    box-shadow: 0 0 6px 2px #00000017;
+  }
+
+  .progress-value-left{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #888888;
+    font-size: 0.8571em;
+  }
+  
+
+  .progress-value-right{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: #888888;
+    font-size: 0.8571em;
+  }
+  
+
+  .progress-container .progress{
+      height: 5px;
+  }
+
+  .commentary-list{
+    margin: 18px 0px;
+    border-bottom: 1px solid gainsboro;
+  }
+  
+
+  .commentary-info{
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .help-overlay{
+    box-shadow: 1px 0px 7px 3px #0000005e;
+    background: white;
+    z-index: 99999;
+    position: absolute;
+    width: 60%;
+    max-height: 100vh;
+    overflow-y: scroll;
+    right: -60%;
+    top: 0;
+    transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  }
+
+  .about-overlay{
+    box-shadow: 1px 0px 7px 3px #0000005e;
+    background: white;
+    z-index: 99999;
+    position: absolute;
+    width: 85%;
+    max-height: 100vh;
+    overflow-y: scroll;
+    right: -85%;
+    top: 0;
+    transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  }
+
+  .gotplus-overlay{
+    box-shadow: 1px 0px 7px 3px #0000005e;
+    background: white;
+    z-index: 99999;
+    position: absolute;
+    width: 60%;
+    max-height: 100vh;
+    overflow-y: scroll;
+    right: -60%;
+    top: 0;
+    transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  }
+  
+
+  .btn-about,.btn-about:hover{
+    background: #e4e4e4;
+    font-size: 17px;
+    color: black!important;
+    padding: 17px 40px;
+  }
+  .help-footer .footer{
+    padding: 16px 0px;
+    margin-top: 13px;
+    position: relative;
+  }
+
+  .show-help{
+    right: 0;
+  }
+
+  .show-about{
+    right: 0;
+  }
+
+  .show-plus{
+    right: 0;
+  }
+
+  .help-menu{
+    border-bottom: 1px solid gainsboro;
+    height: 85px;
+  }
+
+  .help-content{
+       padding: 30px 40px;
+  }
+
+  .help-card{
+    border: 1px solid gainsboro;
+  }
+
+  .help-heading{
+    font-size: 14px;
+    padding: 12px;
+    font-weight: bold;
+  }
+  
+  .help-infos{
+    padding: 0px 20px!important;
+  }
+
+  .help-infos p{
+    font-size: 12px;
+  }
+
+  .help-footer{
+    border-top: 1px solid gainsboro;
+    /* padding: 20px 1px; */
+  }
+
+  .footer ul li a{
+    color: black!important;
+    margin: 0px;
+  }
+
+  #wave {
+    height: 70px;
+    width: 70px;
+    fill: black;
+  }
+
+  .img-slides{
+      margin: 30px;
+  }
+
+  .img-slides img{
+    width: 22%;
+    margin: 10px;
+  }
+
+  .main-plus{
+    background: #ffee99;
+    padding: 30px 0px;
+  }
+  
+  .btn-bud,  .btn-bud:hover{
+      background: #eacb00;
+  }
+
+  .reg-input, .reg-input:hover{
+    background: #eaca02;
+    border-radius: 3px!important;
+    color: black;
+    padding: 18px;
+  }
+
+  .bud-input{
+    border-radius: 3px;
+    padding: 19px 11px!important;
+    border-color: #cecece;
+  }
+
+  .close-help{
+    position: absolute;
+    background: white;
+    top: 70px;
+    left: 10px;
+    border-radius: 25px;
+  }
+  #Line_1 {
+    -webkit-animation: pulse 0.5s infinite;
+            animation: pulse 0.5s infinite;
+    -webkit-animation-delay: 0.15s;
+            animation-delay: 0.15s;
+  }
+  
+  #Line_2 {
+    -webkit-animation: pulse 0.5s infinite;
+            animation: pulse 0.5s infinite;
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+  }
+  
+  #Line_3 {
+    -webkit-animation: pulse 0.5s infinite;
+            animation: pulse 0.5s infinite;
+    -webkit-animation-delay: 0.45s;
+            animation-delay: 0.45s;
+  }
+  
+  #Line_4 {
+    -webkit-animation: pulse 0.5s infinite;
+            animation: pulse 0.5s infinite;
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s;
+  }
+  
+  #Line_5 {
+    -webkit-animation: pulse 0.5s infinite;
+            animation: pulse 0.5s infinite;
+    -webkit-animation-delay: 0.75s;
+            animation-delay: 0.75s;
+  }
+  
+  #Line_6 {
+    -webkit-animation: pulse 0.5s infinite;
+            animation: pulse 0.5s infinite;
+    -webkit-animation-delay: 0.9s;
+            animation-delay: 0.9s;
+  }
+  
+  #Line_7 {
+    -webkit-animation: pulse 0.5s infinite;
+            animation: pulse 0.5s infinite;
+    -webkit-animation-delay: 1.05s;
+            animation-delay: 1.05s;
+  }
+  
+  #Line_8 {
+    -webkit-animation: pulse 0.5s infinite;
+            animation: pulse 0.5s infinite;
+    -webkit-animation-delay: 1.2s;
+            animation-delay: 1.2s;
+  }
+  
+  #Line_9 {
+    -webkit-animation: pulse 0.5s infinite;
+            animation: pulse 0.5s infinite;
+    -webkit-animation-delay: 1.35s;
+            animation-delay: 1.35s;
+  }
+  
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    50% {
+      -webkit-transform: scaleY(0.7);
+              transform: scaleY(0.7);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    50% {
+      -webkit-transform: scaleY(0.7);
+              transform: scaleY(0.7);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+  }
+  
